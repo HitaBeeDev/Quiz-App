@@ -16,9 +16,6 @@ const SECS_PER_QUESTION = 10;
 
 const initialState = {
   questions: [],
-
-  // 'loading', 'error', 'ready', 'active', 'finished'
-  status: "loading",
   index: 0,
   answer: null,
   secondsRemaining: null,
@@ -85,44 +82,47 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <Header />
+    <div {{ fontFamily: "Montserrat, sans-serif" }} className="min-h-screen flex items-center justify-center bg-[#fffefb]">
+      <div className="flex flex-col items-center justify-center border border-[#f5f4f1] rounded-md w-1/3 p-5 bg-[#d4eaf7]">
+        <Header />
 
-      <div>
-        {status === "loading" && <Loader />}
+        <div>
+          {status === "ready" && (
+            <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
+          )}
 
-        {status === "ready" && (
-          <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
-        )}
+          {status === "active" && (
+            <>
+              <Progress
+                index={index}
+                numQuestions={numQuestions}
+                answer={answer}
+              />
 
-        {status === "active" && (
-          <>
-            <Progress
-              index={index}
-              numQuestions={numQuestions}
-              answer={answer}
-            />
+              <Question
+                question={questions[index]}
+                dispatch={dispatch}
+                answer={answer}
+              />
 
-            <Question
-              question={questions[index]}
-              dispatch={dispatch}
-              answer={answer}
-            />
+              <Footer>
+                <Timer
+                  dispatch={dispatch}
+                  secondsRemaining={secondsRemaining}
+                />
+              </Footer>
 
-            <Footer>
-              <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
-            </Footer>
+              <NextButton
+                dispatch={dispatch}
+                answer={answer}
+                numQuestions={numQuestions}
+                index={index}
+              />
+            </>
+          )}
 
-            <NextButton
-              dispatch={dispatch}
-              answer={answer}
-              numQuestions={numQuestions}
-              index={index}
-            />
-          </>
-        )}
-
-        {status === "finished" && <FinishScreen dispatch={dispatch} />}
+          {status === "finished" && <FinishScreen dispatch={dispatch} />}
+        </div>
       </div>
     </div>
   );
