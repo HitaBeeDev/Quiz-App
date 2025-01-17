@@ -2,780 +2,520 @@
   "questions": [
     {
       "id": 1,
-      "question": "You are leading a team, and two members constantly clash. Both are vital to the project. How do you resolve it?",
+      "question": "Your company is facing a financial crisis. The leadership proposes cutting employee benefits to reduce costs. As a manager, how do you respond?",
       "options": {
         "a": {
-          "text": "Split their tasks to avoid interaction.",
-          "intelligence": "Logical-Mathematical",
-          "score": 2
+          "text": "Analyze financial data to suggest alternative cost-cutting strategies.",
+          "intelligence": "Logical",
+          "score": 3
         },
         "b": {
-          "text": "Hold a joint meeting to address the conflict.",
+          "text": "Discuss the proposal with employees to gauge their concerns.",
           "intelligence": "Emotional",
           "score": 3
         },
         "c": {
-          "text": "Assign one to a different project.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
+          "text": "Support the decision to protect the company, despite employee dissatisfaction.",
+          "intelligence": "Logical",
+          "score": 2
         },
         "d": {
-          "text": "Let them resolve it on their own.",
+          "text": "Reflect on your values and consider resigning if you disagree.",
           "intelligence": "Intrapersonal",
-          "score": 1
+          "score": 2
         }
       }
     },
     {
       "id": 2,
-      "question": "You must select one of three sealed envelopes. One has \u20ac1,000, another \u20ac500, and the third is empty. After choosing, you\u2019re shown one of the remaining empty envelopes and given the option to switch. Do you switch?",
+      "question": "A key team member is going through a personal crisis, affecting their performance on a critical project. How do you handle the situation?",
       "options": {
         "a": {
-          "text": "Yes, switching increases my chances.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Offer flexible deadlines and emotional support to ease their workload.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "b": {
-          "text": "No, my first choice feels right.",
+          "text": "Reassign tasks to balance the project timeline without burdening them.",
+          "intelligence": "Logical",
+          "score": 3
+        },
+        "c": {
+          "text": "Encourage them to take a break, prioritizing their well-being.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
-        "c": {
-          "text": "It doesn\u2019t matter; odds are equal.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        },
         "d": {
-          "text": "Refuse to play.",
-          "intelligence": "Intrapersonal",
+          "text": "Keep them accountable to maintain team productivity.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 3,
-      "question": "You\u2019re offered a job in a morally questionable company with double your current salary. What do you do?",
+      "question": "You discover confidential information that a colleague is leaking sensitive data to a competitor. Reporting it may ruin their career but ignoring it risks the company. What do you do?",
       "options": {
         "a": {
-          "text": "Accept the job for financial gain.",
-          "intelligence": "Logical-Mathematical",
-          "score": 2
+          "text": "Gather evidence and report the issue to upper management.",
+          "intelligence": "Logical",
+          "score": 3
         },
         "b": {
-          "text": "Decline due to ethical concerns.",
-          "intelligence": "Intrapersonal",
+          "text": "Confront the colleague privately to understand their motives.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "c": {
-          "text": "Accept but plan to leave soon.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
+          "text": "Reflect on the ethical implications before acting.",
+          "intelligence": "Intrapersonal",
+          "score": 2
         },
         "d": {
-          "text": "Negotiate for a role with less impact.",
-          "intelligence": "Emotional",
-          "score": 2
+          "text": "Ignore it to avoid damaging workplace relationships.",
+          "intelligence": "Logical",
+          "score": 1
         }
       }
     },
     {
       "id": 4,
-      "question": "A close friend asks for honest feedback on their startup idea, but you think it will fail. What do you say?",
+      "question": "You're managing a multicultural team, and cultural misunderstandings are causing tension. How do you address this?",
       "options": {
         "a": {
-          "text": "Be brutally honest.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "b": {
-          "text": "Sugarcoat the feedback.",
-          "intelligence": "Emotional",
-          "score": 1
-        },
-        "c": {
-          "text": "Offer constructive criticism.",
+          "text": "Organize cultural sensitivity workshops to foster understanding.",
           "intelligence": "Emotional",
           "score": 3
         },
-        "d": {
-          "text": "Support them without commenting.",
+        "b": {
+          "text": "Create clear guidelines for professional communication.",
+          "intelligence": "Logical",
+          "score": 3
+        },
+        "c": {
+          "text": "Privately reflect on how your leadership might contribute to the issue.",
           "intelligence": "Intrapersonal",
+          "score": 2
+        },
+        "d": {
+          "text": "Encourage team members to resolve issues independently.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 5,
-      "question": "During a group project, a team member takes credit for your work. What do you do?",
+      "question": "Your startup faces a moral dilemma: accepting funding from a controversial investor could secure long-term growth but harm your brand's ethical image. What is your decision?",
       "options": {
         "a": {
-          "text": "Publicly confront them.",
-          "intelligence": "Intrapersonal",
-          "score": 2
+          "text": "Accept the funding and implement policies to maintain ethical practices.",
+          "intelligence": "Logical",
+          "score": 3
         },
         "b": {
-          "text": "Discuss it privately.",
-          "intelligence": "Emotional",
+          "text": "Reject the funding to stay aligned with your brand values.",
+          "intelligence": "Intrapersonal",
           "score": 3
         },
         "c": {
-          "text": "Let it go for the team\u2019s sake.",
-          "intelligence": "Emotional",
-          "score": 1
+          "text": "Negotiate terms to minimize the investor's influence.",
+          "intelligence": "Logical",
+          "score": 2
         },
         "d": {
-          "text": "Inform the supervisor.",
-          "intelligence": "Logical-Mathematical",
-          "score": 2
+          "text": "Consult stakeholders and employees before making a decision.",
+          "intelligence": "Emotional",
+          "score": 3
         }
       }
     },
     {
       "id": 6,
-      "question": "You are offered two jobs: Job A (\u20ac200k/year, high stress) or Job B (\u20ac80k/year, balanced life). Which do you choose?",
+      "question": "Your team is divided over two equally strong strategies for a product launch. How do you proceed?",
       "options": {
         "a": {
-          "text": "Job A for financial security.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Analyze market data to choose the most promising strategy.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Job B for mental health.",
+          "text": "Facilitate a group discussion to combine the best ideas from both.",
           "intelligence": "Emotional",
           "score": 3
         },
         "c": {
-          "text": "Negotiate Job A for better terms.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Reflect on past experiences to decide which strategy feels right.",
+          "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Start with Job A, then switch to B.",
-          "intelligence": "Intrapersonal",
-          "score": 2
+          "text": "Let the team vote and follow the majority decision.",
+          "intelligence": "Logical",
+          "score": 1
         }
       }
     },
     {
       "id": 7,
-      "question": "You discover your company is secretly harming the environment. Reporting it could cost your job. What do you do?",
+      "question": "A close colleague is underperforming due to personal struggles, affecting the entire project. How do you handle it?",
       "options": {
         "a": {
-          "text": "Report it anonymously.",
-          "intelligence": "Intrapersonal",
+          "text": "Offer emotional support and adjust their workload temporarily.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "b": {
-          "text": "Ignore it to protect your job.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        },
-        "c": {
-          "text": "Leak it to the media.",
-          "intelligence": "Emotional",
+          "text": "Reassign critical tasks to ensure the project stays on track.",
+          "intelligence": "Logical",
           "score": 3
         },
-        "d": {
-          "text": "Confront management internally.",
-          "intelligence": "Emotional",
+        "c": {
+          "text": "Reflect on how you can help without crossing personal boundaries.",
+          "intelligence": "Intrapersonal",
           "score": 2
+        },
+        "d": {
+          "text": "Ignore the issue to avoid getting involved in their personal life.",
+          "intelligence": "Logical",
+          "score": 1
         }
       }
     },
     {
       "id": 8,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "Your supervisor rejects your innovative idea without explanation. What do you do?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Request constructive feedback to improve your idea.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
+          "text": "Analyze why the idea might not align with company goals.",
+          "intelligence": "Logical",
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on whether the feedback is valid or emotionally driven.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Drop the idea and move on to other tasks.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 9,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You're offered a leadership role, but it requires relocating far from your family. How do you decide?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Weigh the pros and cons logically, considering career growth and family impact.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Discuss the opportunity with your family to understand their feelings.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on your personal values and long-term goals.",
           "intelligence": "Intrapersonal",
-          "score": 2
+          "score": 3
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Accept the role immediately for the career advancement.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 10,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "Your company is transitioning to automation, risking job losses. As a leader, how do you handle employee concerns?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Hold open forums to address fears and provide clarity.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
+          "text": "Develop reskilling programs for affected employees.",
+          "intelligence": "Logical",
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Privately reflect on how this change aligns with your leadership values.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Avoid discussing it until formal decisions are made.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 11,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "Your team is behind schedule, and management pressures you to meet the deadline, risking quality. What do you do?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Reprioritize tasks and focus on critical features to meet the deadline.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Communicate the risks to management and negotiate for more time.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on whether delivering lower quality aligns with your personal standards.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Push the team harder to finish everything on time.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 12,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You need to make a tough decision that could disappoint many people but is necessary for long-term success. How do you approach it?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Evaluate the long-term benefits and proceed logically.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Hold discussions to help stakeholders understand the reasoning.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Consider how this decision aligns with your personal integrity.",
           "intelligence": "Intrapersonal",
-          "score": 2
+          "score": 3
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Avoid making the decision until absolutely necessary.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 13,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "A trusted employee is caught violating company policies. How do you handle it?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Apply the same disciplinary action as for others.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Talk to them privately to understand their reasoning.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on whether the rule they broke is fair.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Ignore the issue to avoid damaging the relationship.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 14,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You're offered an opportunity to work on a high-profile project, but you're unsure if you have the skills. What do you do?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Accept and commit to learning what’s necessary.",
+          "intelligence": "Intrapersonal",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Analyze your current skills to see if you're ready.",
+          "intelligence": "Logical",
+          "score": 3
+        },
+        "c": {
+          "text": "Discuss your concerns with the project leader.",
           "intelligence": "Emotional",
           "score": 2
         },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Decline to avoid the risk of failure.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 15,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You’re in a debate and realize your argument may be flawed. How do you respond?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Acknowledge the flaw and adapt your stance.",
+          "intelligence": "Intrapersonal",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
+          "text": "Defend your argument using logic despite the flaw.",
+          "intelligence": "Logical",
           "score": 2
         },
         "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
+          "text": "Consider the other person's perspective with empathy.",
+          "intelligence": "Emotional",
+          "score": 3
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Change the topic to avoid admitting you’re wrong.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 16,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "Your company is launching a product that could harm a small competitor. What do you do?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Analyze the market to ensure it's a fair competition.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Discuss the ethical implications with your team.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on whether the product aligns with your values.",
           "intelligence": "Intrapersonal",
-          "score": 2
+          "score": 3
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Ignore the impact and focus on maximizing profits.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 17,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "A coworker is spreading false rumors about you. How do you handle it?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Confront them calmly to resolve the issue.",
+          "intelligence": "Emotional",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
+          "text": "Report the behavior to management.",
+          "intelligence": "Logical",
           "score": 2
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on whether addressing it is worth the conflict.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Ignore it and focus on your work.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 18,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You’re offered a lucrative job at a company known for unethical practices. What do you do?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Decline the offer due to ethical concerns.",
+          "intelligence": "Intrapersonal",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Accept and try to promote ethical practices from within.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
+          "text": "Analyze if the role directly involves unethical behavior.",
+          "intelligence": "Logical",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Accept the offer without considering ethics.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 19,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You are leading a project, but your team is resistant to change. How do you encourage innovation?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Present data showing how innovation leads to success.",
+          "intelligence": "Logical",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Create a safe space for brainstorming and idea-sharing.",
           "intelligence": "Emotional",
-          "score": 2
+          "score": 3
         },
         "c": {
-          "text": "Follow your instincts.",
+          "text": "Reflect on your leadership style to inspire change.",
           "intelligence": "Intrapersonal",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Implement changes without team input to speed up progress.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
     },
     {
       "id": 20,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
+      "question": "You make a mistake that negatively impacts a major client. What is your response?",
       "options": {
         "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Admit the mistake and propose a solution.",
+          "intelligence": "Intrapersonal",
           "score": 3
         },
         "b": {
-          "text": "Consult trusted advisors.",
+          "text": "Apologize to the client and offer compensation.",
           "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 21,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
           "score": 3
         },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
         "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
+          "text": "Analyze how the mistake happened and fix it silently.",
+          "intelligence": "Logical",
           "score": 2
         },
         "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 22,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 23,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 24,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 25,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 26,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 27,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 28,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 29,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
-          "score": 1
-        }
-      }
-    },
-    {
-      "id": 30,
-      "question": "You face a high-pressure decision in your career. How do you respond to minimize failure?",
-      "options": {
-        "a": {
-          "text": "Break it into smaller decisions.",
-          "intelligence": "Logical-Mathematical",
-          "score": 3
-        },
-        "b": {
-          "text": "Consult trusted advisors.",
-          "intelligence": "Emotional",
-          "score": 2
-        },
-        "c": {
-          "text": "Follow your instincts.",
-          "intelligence": "Intrapersonal",
-          "score": 2
-        },
-        "d": {
-          "text": "Delay making a decision.",
-          "intelligence": "Logical-Mathematical",
+          "text": "Ignore the issue and hope it resolves itself.",
+          "intelligence": "Logical",
           "score": 1
         }
       }
