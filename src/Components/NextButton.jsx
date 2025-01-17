@@ -13,7 +13,7 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         </button>
       ) : (
         <button
-          className="bg-green-700 text-white px-4 py-2 rounded-md hover:bg-green-800 transition-all"
+          className="bg-[#00668c] text-white px-4 py-2 rounded-md hover:bg-[#00668c]/20 transition-all"
           onClick={() => dispatch({ type: "finish" })}
         >
           Finish

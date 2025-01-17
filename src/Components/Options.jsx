@@ -2,7 +2,7 @@ function Options({ question, dispatch, answer }) {
   const hasAnswered = answer !== null;
 
   return (
-    <div className="mt-4 flex flex-col gap-2 w-4/5">
+    <div className="mt-4 flex flex-col gap-2 w-11/12">
       {Object.entries(question.options).map(([key, option]) => (
         <button
           className={`text-sm tracking-normal leading-6 text-[#313d44] h-[2.2rem] w-full rounded-md border
