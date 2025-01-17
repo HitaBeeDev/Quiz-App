@@ -82,8 +82,11 @@ export default function App() {
   }, []);
 
   return (
-    <div {{ fontFamily: "Montserrat, sans-serif" }} className="min-h-screen flex items-center justify-center bg-[#fffefb]">
-      <div className="flex flex-col items-center justify-center border border-[#f5f4f1] rounded-md w-1/3 p-5 bg-[#d4eaf7]">
+    <div
+      style={{ fontFamily: "Montserrat, sans-serif" }}
+      className="min-h-screen flex items-center justify-center bg-[#fffefb]"
+    >
+      <div className="flex flex-col justify-center border border-[#f5f4f1] rounded-xl w-1/3 p-6 bg-[#d4eaf7]">
         <Header />
 
         <div>
