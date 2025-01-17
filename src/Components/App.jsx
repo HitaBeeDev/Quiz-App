@@ -12,7 +12,7 @@ import Footer from "./Footer";
 import Timer from "./Timer";
 import data from "../data/questions.json";
 
-const SECS_PER_QUESTION = 10;
+const SECS_PER_QUESTION = 30;
 
 const initialState = {
   questions: [],
@@ -86,7 +86,7 @@ export default function App() {
       style={{ fontFamily: "Montserrat, sans-serif" }}
       className="min-h-screen flex items-center justify-center bg-[#fffefb]"
     >
-      <div className="flex flex-col justify-center border border-[#f5f4f1] rounded-xl w-1/3 p-6 bg-[#d4eaf7]">
+      <div className="border border-[#d4eaf7] rounded-xl w-1/3 shadow-lg h-[32rem] p-10">
         <Header />
 
         <div>

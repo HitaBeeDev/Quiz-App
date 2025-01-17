@@ -1,29 +1,26 @@
 function NextButton({ dispatch, answer, index, numQuestions }) {
   if (answer === null) return null;
 
-  if (index < numQuestions - 1)
-    return (
-      <div>
+  return (
+    <div className="flex justify-end mt-9">
+      {index < numQuestions - 1 ? (
         <button
-          className="bg-blue-700"
+          className="w-16 text-[0.82rem] font-medium hover:font-semibold h-8 rounded-md bg-[#b6ccd8]
+        text-center flex items-center justify-center text-[#313d44] hover:bg-[#b6ccd8]/60 transition-all duration-200"
           onClick={() => dispatch({ type: "nextQuestion" })}
         >
-          next
+          Next
         </button>
-      </div>
-    );
-
-  if (index === numQuestions - 1)
-    return (
-      <div>
+      ) : (
         <button
-          className="bg-blue-700"
+          className="bg-green-700 text-white px-4 py-2 rounded-md hover:bg-green-800 transition-all"
           onClick={() => dispatch({ type: "finish" })}
         >
-          FINISH
+          Finish
         </button>
-      </div>
-    );
+      )}
+    </div>
+  );
 }
 
 export default NextButton;

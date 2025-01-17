@@ -16,8 +16,8 @@ function Timer({ dispatch, secondsRemaining }) {
   );
 
   return (
-    <div>
-      fucking time {minutes < 10 && "0"}
+    <div className="text-xs font-medium mt-5 text-[#313d44]">
+      Your Remaining Time : {minutes < 10 && "0"}
       {minutes}: {seconds < 10 && "0"}
       {seconds}
     </div>
