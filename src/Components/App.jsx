@@ -19,6 +19,11 @@ const initialState = {
   index: 0,
   answer: null,
   secondsRemaining: null,
+  scores: {
+    logical: 0,
+    emotional: 0,
+    intrapersonal: 0,
+  },
 };
 
 function reducer(state, action) {
@@ -37,11 +42,37 @@ function reducer(state, action) {
         secondsRemaining: state.questions.length * SECS_PER_QUESTION,
       };
 
-    case "newAnswer":
+    case "newAnswer": {
+      const selectedKey = action.payload;
+      const currentQuestion = state.questions[state.index];
+      const selectedOption = currentQuestion.options[selectedKey];
+
+      if (!selectedOption) {
+        return state;
+      }
+
+      const updatedScores = { ...state.scores };
+
+      switch (selectedOption.intelligence.toLowerCase()) {
+        case "logical":
+          updatedScores.logical += selectedOption.score;
+          break;
+        case "emotional":
+          updatedScores.emotional += selectedOption.score;
+          break;
+        case "intrapersonal":
+          updatedScores.intrapersonal += selectedOption.score;
+          break;
+        default:
+          break;
+      }
+
       return {
         ...state,
-        answer: action.payload,
+        answer: selectedKey,
+        scores: updatedScores,
       };
+    }
 
     case "restart":
       return {
@@ -72,8 +103,10 @@ function reducer(state, action) {
 }
 
 export default function App() {
-  const [{ questions, status, index, answer, secondsRemaining }, dispatch] =
-    useReducer(reducer, initialState);
+  const [
+    { questions, status, index, answer, secondsRemaining, scores },
+    dispatch,
+  ] = useReducer(reducer, initialState);
 
   const numQuestions = questions.length;
 
@@ -84,9 +117,9 @@ export default function App() {
   return (
     <div
       style={{ fontFamily: "Montserrat, sans-serif" }}
-      className="min-h-screen flex items-center justify-center bg-[#fffefb]"
+      className="min-h-screen flex items-center justify-center bg-[#1D1F21]"
     >
-      <div className="border border-[#d4eaf7] rounded-xl w-1/3 shadow-lg h-[32rem] p-10">
+      <div className="rounded-xl w-[40rem] shadow-lg h-[33rem] p-10 bg-[#2c2e30]">
         <Header />
 
         <div>
@@ -124,7 +157,9 @@ export default function App() {
             </>
           )}
 
-          {status === "finished" && <FinishScreen dispatch={dispatch} />}
+          {status === "finished" && (
+            <FinishScreen dispatch={dispatch} scores={scores} />
+          )}
         </div>
       </div>
     </div>

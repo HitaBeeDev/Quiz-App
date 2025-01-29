@@ -15,7 +15,7 @@
           "score": 3
         },
         "c": {
-          "text": "Support the decision to protect the company, despite employee dissatisfaction.",
+          "text": "Support the decision to protect the company despite dissatisfaction.",
           "intelligence": "Logical",
           "score": 2
         },
@@ -213,7 +213,7 @@
       "question": "You're offered a leadership role, but it requires relocating far from your family. How do you decide?",
       "options": {
         "a": {
-          "text": "Weigh the pros and cons logically, considering career growth and family impact.",
+          "text": "Logically weigh pros and cons of career growth vs. family impact.",
           "intelligence": "Logical",
           "score": 3
         },
@@ -275,7 +275,7 @@
           "score": 3
         },
         "c": {
-          "text": "Reflect on whether delivering lower quality aligns with your personal standards.",
+          "text": "Reflect if lower quality aligns with your standards.",
           "intelligence": "Intrapersonal",
           "score": 2
         },

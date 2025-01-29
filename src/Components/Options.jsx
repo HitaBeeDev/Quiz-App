@@ -1,17 +1,15 @@
 function Options({ question, dispatch, answer }) {
-  const hasAnswered = answer !== null;
-
   return (
-    <div className="mt-4 flex flex-col gap-2 w-11/12">
+    <div className="mt-4 flex flex-col gap-3 w-full">
       {Object.entries(question.options).map(([key, option]) => (
         <button
-          className={`text-sm tracking-normal leading-6 text-[#313d44] h-[2.2rem] w-full rounded-md border
-            border-[#d4eaf7] 
-        ${answer === key ? "bg-[#d4eaf7]" : ""} 
+          className={`text-sm tracking-normal leading-6 text-[#F5F5F5] h-[2.2rem] w-full rounded-md border
+            border-[#929292] 
+        ${answer === key ? "bg-[#929292] text-[#1D1F21]" : ""} 
         ${
           answer !== null
             ? "cursor-not-allowed opacity-60"
-            : "hover:bg-[#d4eaf7] cursor-pointer transition-all duration-500"
+            : "hover:bg-[#444648] cursor-pointer transition-all duration-500"
         }
       `}
           key={key}
