@@ -13,8 +13,8 @@ function NextButton({ dispatch, answer, index, numQuestions }) {
         </button>
       ) : (
         <button
-          className="w-16 text-[0.82rem] font-medium hover:font-semibold h-8 rounded-md bg-[#00668c]
-        text-center flex items-center justify-center text-[#fffefb] hover:bg-[#00668c]/80 transition-all duration-200"
+          className="w-20 text-xs font-medium h-8 rounded-md bg-[#FF6600]
+        text-center flex items-center justify-center text-[#FFFFFF] hover:bg-[#fe7511] transition-all duration-500"
           onClick={() => dispatch({ type: "finish" })}
         >
           Finish

@@ -4,29 +4,38 @@ function FinishScreen({ dispatch, scores }) {
     a[1] > b[1] ? a : b
   )[0];
 
-  return (
-    <div className="text-center">
-      <h2 className="text-2xl font-bold text-white">Quiz Completed!</h2>
+  // Logical = "Logical-Mathematical Intelligence";
+  // Emotional = "Emotional intelligence (EI)";
+  // logical = "Logical-Mathematical Intelligence";
+  // logical = "Logical-Mathematical Intelligence";
 
-      <p className="text-lg text-gray-300 mt-2">
-        Your strongest intelligence is:{" "}
-        <span className="text-green-400 font-bold capitalize">
+  return (
+    <div>
+      <h2 className="text-center mt-5 text-md text-[#FF6600] font-semibold tracking-wide text-xl">
+        Test Completed!
+      </h2>
+
+      <p className="text-lg text-[#e0e0e0] mt-5">
+        Your highest-performing intelligence type is {""}
+        <span className="text-[#ffffa1] font-bold capitalize">
+          {""}
           {bestIntelligence}
         </span>
         .
       </p>
 
-      <div className="mt-4">
+      {/* <div className="mt-4">
         <p className="text-gray-400">Score Breakdown:</p>
         <ul className="list-disc list-inside text-gray-300">
           <li>Logical Intelligence: {scores.logical}</li>
           <li>Emotional Intelligence: {scores.emotional}</li>
           <li>Intrapersonal Intelligence: {scores.intrapersonal}</li>
         </ul>
-      </div>
+      </div> */}
 
       <button
-        className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+        className="w-44 text-xs font-medium h-8 rounded-md bg-[#FF6600]
+        text-center flex items-center justify-center text-[#FFFFFF] hover:bg-[#fe7511] transition-all duration-500"
         onClick={() => dispatch({ type: "restart" })}
       >
         Restart Quiz
