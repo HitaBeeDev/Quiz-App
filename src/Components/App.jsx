@@ -117,9 +117,9 @@ export default function App() {
   return (
     <div
       style={{ fontFamily: "Montserrat, sans-serif" }}
-      className="min-h-screen flex items-center justify-center bg-[#1D1F21]"
+      className="h-screen flex items-center justify-center bg-[#1D1F21]"
     >
-      <div className="rounded-xl w-[40rem] shadow-lg h-[33rem] p-10 bg-[#2c2e30]">
+      <div className="rounded-xl w-full h-full md:w-[40rem] md:h-[33rem] shadow-lg p-10 bg-[#2c2e30]">
         <Header />
 
         <div>
