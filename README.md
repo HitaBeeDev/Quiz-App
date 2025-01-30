@@ -1,8 +1,28 @@
-# React + Vite
+## IQonnect: Uncover Your Boldest Intelligence 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IQonnect is a **React-based intelligence test application** that helps users discover their strengths across multiple intelligence types. The app is built with **React**, styled with **Tailwind CSS**, and utilizes the `useReducer` hook for state management.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Dynamic Intelligence Test**: Users answer questions to assess different intelligence types (logical, emotional, intrapersonal).
+- **State Management with `useReducer`**: Efficient and structured state handling.
+- **Tailwind CSS for Styling**: A modern and responsive UI.
+- **Timer & Progress Tracking**: Ensures an engaging and time-bound experience.
+- **Adaptive UI**: Mobile-friendly with responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## 📂 Installation & Setup
+ ```sh
+   git clone https://github.com/your-username/IQonnect.git
+   cd IQonnect
+  ```
+
+  ```sh
+   npm install
+   npm start
+  ```
+
+
+
+
+
+
