@@ -3,7 +3,7 @@ function Options({ question, dispatch, answer }) {
     <div className="mt-4 flex flex-col gap-3 w-full">
       {Object.entries(question.options).map(([key, option]) => (
         <button
-          className={`text-sm tracking-normal leading-6 text-[#F5F5F5] h-[2.2rem] w-full rounded-md border
+          className={`text-sm tracking-normal leading-6 text-[#F5F5F5] h-[4rem] md:h-[2.2rem] w-full rounded-md border
             border-[#929292] 
         ${answer === key ? "bg-[#929292] text-[#1D1F21]" : ""} 
         ${

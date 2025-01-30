@@ -32,7 +32,7 @@ function StartScreen({ numQuestions, dispatch }) {
         Additionally, please manage your time carefully.
       </p>
 
-      <div className="flex justify-end mt-[4.5rem]">
+      <div className="flex justify-end mt-[6rem]">
         <button
           className="w-48 text-xs font-medium h-8 rounded-md bg-[#FF6600]
         text-center flex items-center justify-center text-[#FFFFFF] hover:bg-[#fe7511] transition-all duration-500"

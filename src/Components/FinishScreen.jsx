@@ -68,11 +68,11 @@ function FinishScreen({ dispatch, scores }) {
       </h2>
 
       <div className="mt-10 flex flex-col items-center">
-        <p className="text-lg text-[#e0e0e0]">
+        <p className="text-[0.8rem] md:text-lg text-[#e0e0e0]">
           Your highest-performing intelligence type is
         </p>
 
-        <p className="text-[#ff9d32] font-bold capitalize">
+        <p className="text-[#ff9d32] mt-2 text-md md:text-lg font-bold capitalize">
           {bestIntelligence}
         </p>
 
